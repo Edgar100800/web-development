@@ -1,0 +1,43 @@
+Listas:
+    ul (unordered list)
+    ol (order list)
+    li (list item)
+
+Tablas:
+    table (create table)
+    th (table header)
+    tr (table row)
+    td (table data)
+
+Formularios:
+    input
+        - text
+        - email
+        - number
+    textarea
+    label 
+    type
+    name
+    submit
+    reset
+    requiret
+    radio
+    checkbox
+    select-option
+
+Enlaces:
+    a
+    href
+    target 
+    id
+
+Imagenes:
+    img
+    src
+    alt
+    title
+
+Videos:
+    iframe
+
+Favicon:

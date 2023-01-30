@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primera hoja</title>
+    <link rel="shortcut icon" href="./imagenes/coderhouse-logo.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Clase 2 en HTML</h1>
+    <h2>Listas:</h2>
+    <h3>Listas ordenadas</h3>
+        <ol>
+            <li>Item1</li>
+            <li>Item2</li>
+            <li>Item3</li>
+            <li><a href="#formulario">Formulario</a></li>
+        </ol>
+    <h3>Lista no ordenadas</h3>
+        <ul>
+            <li>Item1</li>
+            <li>Item2</li>
+            <li>Item3</li>
+        </ul>
+    <hr>
+    
+    <h2>Tablas:</h2>
+    <table border = "1">
+        <tr>
+            <th>Producto</th>
+            <th>Color</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>Polera</td>
+            <td>Rojo</td>
+            <td>99$</td> 
+        </tr>
+        <tr>
+            <td>Pantalon</td>
+            <td>Gris</td>
+            <td>150$</td> 
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>Formularios:</h2>
+
+    <form id="formulario">
+        <label for="nombre">
+            Nombre:
+            <input type="text" id="nombre" required>
+        </label>
+
+        <label for="email">
+            E-mail:
+            <input type="email" id="email" required>
+        </label>
+
+        <label for="mensaje">
+            Mensaje:
+            <textarea name="" id="mensaje" cols="30" rows="5" required></textarea>
+        </label>
+
+        <br>
+        <br>
+
+        <label for="si">
+            <input type="radio" name="confirmacion" id="si"> Si
+        </label>
+        <label for="no">
+            <input type="radio" name="confirmacion" id="no"> No
+        </label>
+        <label for="nose">
+            <input type="radio" name="confirmacion" id="nose"> No se
+        </label>
+        
+        <br>
+        <br>
+
+        <label for="sicb">
+            <input type="checkbox" name="confirmacioncheck" id="sicb"> Si
+        </label>
+        <label for="nocb">
+            <input type="checkbox" name="confirmacioncheck" id="nocb"> No
+        </label>
+        <label for="nosecb">
+            <input type="checkbox" name="confirmacioncheck" id="nosecb"> No se
+        </label>
+
+        <br>
+        <br>
+
+        <select name="" id="">
+            <option disabled selected> Seleccione un pais </option>
+            <option> Argentina </option>
+            <option> Uruguay </option>
+            <option> Chile </option>
+        </select>
+
+        <br>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Reset</button>
+    </form>
+
+    <hr>
+
+    <h2>Enlaces:</h2>
+    <a href="https://www.coderhouse.com.pe/" target="_blank">
+        CoderHouse
+    </a>
+    <br>
+    <a href="./contacto.html">
+        Contacto
+    </a>
+
+    <hr>
+
+    <img src="./imagenes/coderhouse-logo.png" alt="Logo de codehouse" title="Logo de Coderhouse" width="100px">
+
+    <hr>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vcA-smViJng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html> 
