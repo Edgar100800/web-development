@@ -7,7 +7,7 @@
 }
 
 header{
-    background-color: rgb(240, 90, 207);
+    background-color: rgba(0, 0, 0, 0.849);
     display: flex;
     gap: 20px;
     grid-gap: 20px;
@@ -83,6 +83,13 @@ header{
     gap: 15px;
     padding-bottom: 20px;
     color: white;
+}
+
+.pie{
+    background-color: rgba(0, 0, 0, 0.849);
+    color: white;
+    padding-block: 15px;
+    text-align: center;
 }
 
 
