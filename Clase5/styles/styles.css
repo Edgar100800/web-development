@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(240, 90, 207);
+    display: flex;
+    gap: 20px;
+    grid-gap: 20px;
+}
+
+.logo{
+    width: 80px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    grid-gap: 15px;
+} 
+
+.menu_item a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu_item.active a{
+    text-decoration: underline double;
+}
+
+.imagenPrincipal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background-size: cover;
+    background-image: url("../img/Huascaran_Huandoy_Chopicalqui_seen_from_Huaraz.jfif");
+    flex-direction: column;
+    padding-inline: 150px;
+}
+
+.imagenPrincipal h2{
+    color: rgb(236, 232, 232);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-inline: 15px;
+}
+
+.imagenPrincipal p{
+    color: white;
+    text-align: center;
+}
+
+.tarjetitas {
+    display: flex;
+    padding: 40px;
+    gap: 30px;
+}
+
+.tarjetita{
+    background-color: rgba(0, 0, 0, 0.849);
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.informacion{
+    padding-inline: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+
+
+
+
